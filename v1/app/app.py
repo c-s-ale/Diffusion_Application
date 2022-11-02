@@ -28,6 +28,7 @@ def get_device():
 # create a route
 @app.get("/")
 def index():
+    print('LOOKIT THIS COOL HEALTH CHECK BRO')
     return {"text" : "We're running!"}
 
 # create a text2img route
