@@ -25,11 +25,6 @@ def get_device():
         print('cuda is not available')
         return torch.device('cpu')
 
-# create a route
-@app.get("/")
-def index():
-    return {"text" : "We're running!"}
-
 # create a text2img route
 @app.post("/text2img")
 def text2img(text: str):
