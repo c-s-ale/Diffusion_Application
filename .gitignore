@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 hf_token.py
+/v1/model
